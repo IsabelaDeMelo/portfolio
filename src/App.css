@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.rec-arrow {
+  color: #5C0147;
+}
+
+.rec-arrow:hover {
+  background-color: #0D001C;
+}
+
+.rec-arrow:disabled {
+  visibility: hidden;
+}
+
+.rec-carousel-item:focus {
+  visibility: hidden;
+  outline: none;
+  box-shadow: 0 0 1px 1px lightgrey;
+}
